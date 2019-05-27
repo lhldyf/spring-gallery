@@ -15,6 +15,7 @@
         <module>spring-cloud-consul</module>
         <module>spring-cloud-eureka</module>
         <module>spring-cloud-gallery-common</module>
+        <module>spring-cloud-config</module>
     </modules>
     <packaging>pom</packaging>
 

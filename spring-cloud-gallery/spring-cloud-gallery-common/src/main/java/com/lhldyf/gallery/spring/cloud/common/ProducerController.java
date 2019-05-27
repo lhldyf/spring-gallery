@@ -14,7 +14,11 @@ public abstract class ProducerController {
 
     @RequestMapping("/hello")
     public String hello() {
-        return "hello consul from port: " + this.port;
+        return "hello consul from port: " + this.port + " " + name();
+    }
+
+    public String name() {
+        return "";
     }
 
 }
