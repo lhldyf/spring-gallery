@@ -8,6 +8,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * 1. 这个注解非常关键: @ConfigurationProperties，否则不会进这里的set方法，bootMap永远都是null
+ * 2. setter/getter方法也必须要的
  * @author lhldyf
  * @date 2019-05-29 17:33
  */
