@@ -16,8 +16,8 @@ public class MapPropertiesConfigTest extends AbstractTester {
 
     @Test
     public void test() {
-        Assert.assertNotNull(mapPropertiesConfig.getBootMap());
         Assert.assertEquals(MapPropertiesConfig.getBootMap("key1"), "value1");
         Assert.assertEquals(MapPropertiesConfig.getBootMap("key2"), "value2");
+        System.out.println(MapPropertiesConfig.getBootMap());
     }
 }

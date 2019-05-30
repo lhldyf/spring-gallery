@@ -23,7 +23,7 @@ public class MapPropertiesConfig {
      */
     private static Map<String, String> bootMap = new HashMap<>();
 
-    public Map<String, String> getBootMap() {
+    public static Map<String, String> getBootMap() {
         return bootMap;
     }
 

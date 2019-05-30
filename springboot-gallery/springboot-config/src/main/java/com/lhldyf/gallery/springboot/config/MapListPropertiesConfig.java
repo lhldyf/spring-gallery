@@ -24,7 +24,7 @@ public class MapListPropertiesConfig {
      */
     private static Map<String, List<String>> bootMapList = new HashMap<>();
 
-    public Map<String, List<String>> getBootMapList() {
+    public static Map<String, List<String>> getBootMapList() {
         return bootMapList;
     }
 
