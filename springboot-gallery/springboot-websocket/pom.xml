@@ -9,22 +9,26 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springboot-config</artifactId>
+    <artifactId>springboot-websocket</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-
 
     <dependencies>
         <dependency>
-            <groupId>com.lhldyf</groupId>
-            <artifactId>springboot-base</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-
-        <!-- 配置spring切面需要引入 -->
-        <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-aop</artifactId>
+            <artifactId>spring-boot-starter-websocket</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.68</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
+
+
 </project>

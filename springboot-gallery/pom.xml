@@ -14,12 +14,13 @@
     <modules>
         <module>springboot-config</module>
         <module>springboot-base</module>
+        <module>springboot-websocket</module>
     </modules>
     <packaging>pom</packaging>
 
     <dependencyManagement>
         <dependencies>
-            
+
         </dependencies>
     </dependencyManagement>
 </project>

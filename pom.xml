@@ -5,6 +5,7 @@
     <modules>
         <module>spring-cloud-gallery</module>
         <module>springboot-gallery</module>
+        <module>spring-webflux-gallery</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
